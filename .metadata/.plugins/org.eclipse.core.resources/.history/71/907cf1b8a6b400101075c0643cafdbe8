@@ -1,0 +1,13 @@
+package com.demo.test;
+import com.demo.service.ArrayService;
+public class Test {
+
+	public static void main(String[] args) {
+		ArrayService aservice = new ArrayService();
+		System.out.println("capacity : "+aservice.getCapacity());
+	    aservice.add(10);
+	    System.out.println(aservice);
+
+	}
+
+}

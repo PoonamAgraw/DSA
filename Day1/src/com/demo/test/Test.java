@@ -1,0 +1,35 @@
+package com.demo.test;
+import java.util.stream.IntStream;
+
+import com.demo.service.ArrayService;
+public class Test {
+
+	public static void main(String[] args) {
+		ArrayService ob=new ArrayService();
+		System.out.println("capacity : "+ob.getCapacity());
+		ob.add(4);
+		ob.add(7);
+		System.out.println(ob);
+		ob.add(8,1);
+		System.out.println(ob);
+		ob.deletePos(1);
+		System.out.println(ob);
+		ob.add(5);
+		ob.add(9);
+		System.out.println(ob);
+		int val=ob.searchByValue(5);
+		System.out.println("Value at index :"+val);
+		ob.deleteByValue(7);
+		System.out.println(ob);
+		ob.rotateArray(true, 1);
+		System.out.println(ob);
+		ob.reverseArray(true);
+		System.out.println(ob);
+		int[] arr1=ob.exchangeIndexvalue();
+		IntStream.of(arr1).forEach(e->System.out.print(e+","));
+		int sum = ob.findSum();
+		System.out.println("");
+		System.out.println("Addition is "+sum);
+		}
+
+}

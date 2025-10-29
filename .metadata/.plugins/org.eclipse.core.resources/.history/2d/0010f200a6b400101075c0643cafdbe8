@@ -1,0 +1,32 @@
+package com.demo.service;
+import java.util.Scanner;
+public class ArrayService {
+private int [] arr;
+private int count ;
+
+	public ArrayService() {
+		arr=new int[10];
+		count=0;
+}
+	public  ArrayService(int size) {
+		arr = new int [size];
+		count=0;
+	}
+	public int getCapacity() {
+		return arr.length;
+	}
+	public int getsize() {
+		return count;
+	}
+
+	public ArrayService(int[] arr, int count) {
+	super();
+	this.arr = arr;
+	this.count = count;
+}
+public boolean add(int x) {
+	
+}
+	
+
+}

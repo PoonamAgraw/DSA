@@ -1,6 +1,6 @@
 package com.demo.service;
 
-public class Search {
+public class Searching {
 	public static int sequentialSearch(int arr[], int val) {
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] == val) {

@@ -2,7 +2,12 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.demo.service.ArrayService"/>
-    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.demo.service.Search"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="com.demo.service.QuickSort"/>
+    <fullyQualifiedTypeName name="com.demo.service.InsertionSort"/>
+    <fullyQualifiedTypeName name="com.demo.service.CountingSort"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.demo.service.HeapSort"/>
 </qualifiedTypeNameHistroy>

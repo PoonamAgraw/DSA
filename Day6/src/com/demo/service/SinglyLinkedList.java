@@ -75,9 +75,53 @@ public class SinglyLinkedList {
 	}
 	
 	
+	public  void deleteByValue(int num) {
+		Node temp = head;
+		Node prev = null;
+		if(head.data == num) {
+			head = temp.next;
+			temp.next=null;
+		}
+		else {
+			
+			while (temp!=null && temp.data != (num)) {
+				prev = temp ;
+				temp = temp.next;
+			}
+		}
+		if(temp!=null) {
+			prev.next = temp.next;
+			temp.next = null;			
+		}
+		else {
+			System.out.println("Data not found.");
+		}
+	}
 	
+	public void deleteByPos(int pos){
+		Node temp = head;
+		Node prev = null;
+		if(pos ==1) {
+			head = temp.next;
+			temp.next = null;
+		}
+		else {
+			for(int i = 0; temp!=null && i<pos-1;i++) {
+				prev = temp;
+				temp = temp.next;
+			}
+				if(temp!=null) {
+					prev.next = temp.next;
+					temp.next=null;
+				}
+				else {
+					System.out.println("Position not found");
+				}
+				
+			}
+		}
+	}
 	
 	
 
 
-}

@@ -15,6 +15,12 @@ public class TestLinkedList {
 		list.addByNum(5, 5);
 		System.out.println();
 		list.displayNode();
+//		list.deleteByValue(59);
+//		System.out.println();
+//		list.displayNode();
+		list.deleteByPos(1);
+		System.out.println();
+		list.displayNode();
 	}
 
 }

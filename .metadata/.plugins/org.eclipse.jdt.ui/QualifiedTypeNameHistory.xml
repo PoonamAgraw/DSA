@@ -10,4 +10,6 @@
     <fullyQualifiedTypeName name="com.demo.service.CountingSort"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.demo.service.HeapSort"/>
+    <fullyQualifiedTypeName name="com.demo.service.SelectionSort"/>
+    <fullyQualifiedTypeName name="com.demo.service.StackLinkesdList.Node"/>
 </qualifiedTypeNameHistroy>

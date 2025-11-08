@@ -1,7 +1,4 @@
 package com.demo.service;
-
-
-
 public class OueueLinkedList {
 	Node front;
 	Node rear;

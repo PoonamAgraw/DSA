@@ -10,6 +10,8 @@ public class TestHashing {
 		hlist.insertData(92);
 		hlist.insertData(4);
 		hlist.displayHashing();
+		hlist.searchData(92);
+		hlist.searchData(100);
 		
 	}
 

@@ -112,7 +112,7 @@ public class BinarySearchTree {
 	private boolean searchData(Node root, int val) {
 		if(root!=null) {
 			if(root.data==val) {
-				System.out.println(val+"data found");
+				System.out.println(val+" data found");
 				return true;
 			}
 			else if(val<root.data) {
@@ -122,7 +122,7 @@ public class BinarySearchTree {
 				return searchData(root.right,val);
 			}
 		}
-		System.out.println(val+"data not found");
+		System.out.println(val+" data not found");
 		return false;
 	}
 	
@@ -134,7 +134,7 @@ public class BinarySearchTree {
 			Node temp=root;
 			while(temp!=null) {
 				if(temp.data==val) {
-					System.out.println(val+"data found");
+					System.out.println(val+" data found");
 					return true;
 				}
 				else if(val<root.data) {
@@ -146,7 +146,7 @@ public class BinarySearchTree {
 			}
 			}
 			
-		System.out.println(val+"data not found");
+		System.out.println(val+" data not found");
 		return false;
 	}
 }

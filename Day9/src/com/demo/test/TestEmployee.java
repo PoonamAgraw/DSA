@@ -9,12 +9,12 @@ public class TestEmployee {
 	public static void main(String[] args) {
 		EmployeeService elist=new EmployeeService();
 		elist.addNode(new Employee(1,"Raju",542154));
-		elist.addNode(new Employee(10,"Maju",54254));
-		elist.addNode(new Employee(45,"Paju",5154));
-		elist.addNode(new Employee(6,"Taju",5421754));
+		elist.addNode(new Employee(10,"Bablu",54254));
+		elist.addNode(new Employee(45,"Babli",5154));
+		elist.addNode(new Employee(6,"Ramu",5421754));
 		elist.displayData();
 		System.out.println("----------------------------");
-		elist.addAfterNum(new Employee(27,"Jaju",4578),45);
+		elist.addAfterNum(new Employee(27,"Prem",4578),45);
 		elist.displayData();
 		System.out.println("----------------------------");
 		elist.deleteByValue(6);

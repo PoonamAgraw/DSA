@@ -21,6 +21,8 @@ public class TestBinarySearchTree {
 		blist.inOrder();
 		System.out.println(blist.search(95));
 		System.out.println(blist.searchNonRecursive(45));
+		System.out.println(blist.search(100));
+		System.out.println(blist.searchNonRecursive(3));
 	}
 
 }

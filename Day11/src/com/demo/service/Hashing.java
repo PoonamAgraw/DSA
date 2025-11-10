@@ -56,12 +56,12 @@ public boolean searchData(int num) {
 	Node temp = head[pos];
 	while(temp!=null) {
 		if(temp.data==num) {
-			System.out.println(num+"found");
+			System.out.println(num+" found");
 			return true;
 		}
 		temp=temp.next;
 	}
-	System.out.println(num+"not found");
+	System.out.println(num+" not found");
 	return false;
 }
 

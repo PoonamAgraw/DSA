@@ -13,4 +13,5 @@
     <fullyQualifiedTypeName name="com.demo.service.SelectionSort"/>
     <fullyQualifiedTypeName name="com.demo.service.StackLinkesdList.Node"/>
     <fullyQualifiedTypeName name="com.demo.beans.Employee"/>
+    <fullyQualifiedTypeName name="com.demo.service.SinglyLinkList"/>
 </qualifiedTypeNameHistroy>

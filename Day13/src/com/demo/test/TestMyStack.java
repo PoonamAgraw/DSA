@@ -14,6 +14,7 @@ public class TestMyStack {
 			mlist.push(str[i]);
 		}
         System.out.println("---------");
+        mlist.displayStack();
         char [] arr = new char[str.length];
         for(int i=0;i<str.length;i++) {
         	System.out.println(arr[i]=mlist.pop());
@@ -26,6 +27,7 @@ public class TestMyStack {
     		   System.out.println("String is  Palindrome");
     	   }
        }
+      
 	}
 
 }

@@ -36,6 +36,17 @@ public class MyStack {
 			return 0;
 		}
 	}
+	   public void displayStack() {
+	        if (isEmpty()) {
+	            System.out.println("Stack is empty.");
+	        } else {
+	            System.out.print("Stack elements: ");
+	            for (int i = 0; i <= top; i++) {
+	                System.out.print(arr[i] + " ");
+	            }
+	            System.out.println();
+	        }
+	    }
 	private boolean isEmpty() {
 		
 		return top==-1;

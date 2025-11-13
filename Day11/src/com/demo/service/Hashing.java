@@ -64,6 +64,27 @@ public boolean searchData(int num) {
 	System.out.println(num+" not found");
 	return false;
 }
+public boolean deleteData(int num) {
+    int pos = num % head.length;
+    Node temp = head[pos];
+    Node prev = null;
+    while (temp != null) {
+        if (temp.data == num) {
+            if (prev == null) {
+                head[pos] = temp.next;
+            } 
+            else {
+                prev.next = temp.next;
+            }
+            System.out.println(num + " deleted");
+            return true;
+        }
+        prev = temp;
+        temp = temp.next;
+    }
+    System.out.println(num + " not found to delete");
+    return false;
+}
 
 
 }

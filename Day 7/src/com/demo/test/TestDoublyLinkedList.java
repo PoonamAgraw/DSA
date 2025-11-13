@@ -13,6 +13,11 @@ public class TestDoublyLinkedList {
 		dlist.displayData();
 		dlist.deleteByVal(82);
 		dlist.displayData();
+		dlist.addByPosition(4, 52);
+		dlist.addByValue(6, 12);
+		dlist.displayData();
+		dlist.deleteByPosition(4);
+		dlist.displayData();
 	}
 
 }

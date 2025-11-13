@@ -12,7 +12,8 @@ public class TestHashing {
 		hlist.displayHashing();
 		hlist.searchData(92);
 		hlist.searchData(100);
-		
+		hlist.deleteData(92);
+		hlist.displayHashing();
 	}
 
 }

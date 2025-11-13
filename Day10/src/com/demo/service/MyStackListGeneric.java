@@ -40,7 +40,20 @@ public class MyStackListGeneric<T> {
     	}else {
     		System.out.println("Stack is empty");
     		return null;
-    	}
-    	
+    	}	
+    }
+    
+    public void displayData() {
+    	if (isEmpty()) {
+            System.out.println("Stack is empty");
+            return;
+        }
+        Node temp = top;
+        System.out.print("Stack elements (top → bottom): ");
+        while (temp != null) {
+            System.out.print(temp.data + " -> ");
+            temp = temp.next;
+        }
+        System.out.println("null");
     }
 }

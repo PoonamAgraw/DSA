@@ -7,9 +7,12 @@ public class TestOueueLinkedList {
 		qlist.enQueue(12);
 		qlist.enQueue(23);
 		qlist.enQueue(4);
+		qlist.enQueue(52);
+		qlist.enQueue(93);
 		System.out.println(qlist.deQueue());
 		System.out.println(qlist.deQueue());
 		System.out.println(qlist.deQueue());
+		qlist.displayData();
 	}
 
 }

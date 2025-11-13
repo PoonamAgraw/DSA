@@ -10,6 +10,10 @@ public class TestQueueArray {
 		System.out.println(qlist.deQueue());
 		System.out.println(qlist.deQueue());
 		System.out.println(qlist.deQueue());
+		qlist.enQueue(45);
+		qlist.enQueue(26);
+		qlist.enQueue(63);
+		qlist.displayData();
 	}
 
 }

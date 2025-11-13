@@ -48,5 +48,18 @@ public class MyQueueLinkedList {
 		}
 	}
 	
+	public void displayData() {
+		  if (isEmpty()) {
+	            System.out.println("Queue is empty");
+	            return;
+	        }
+	        Node temp = front;
+	        System.out.print("Queue elements (front → rear): ");
+	        while (temp != null) {
+	            System.out.print(temp.data + " -> ");
+	            temp = temp.next;
+	        }
+	        System.out.println("null");
+	}
 
 }

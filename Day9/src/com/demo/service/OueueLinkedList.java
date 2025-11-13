@@ -40,6 +40,19 @@ public class OueueLinkedList {
 			return -1;
 		}
 	}
+	public void displayData() {
+		if (isEmpty()) {
+            System.out.println("Queue is Empty");
+            return;
+        }
+        Node temp = front;
+        System.out.print("Queue elements (front → rear): ");
+        while (temp != null) {
+            System.out.print(temp.data + " -> ");
+            temp = temp.next;
+        }
+        System.out.println("null");
+	}
 	private boolean isEmpty() {
 		
 		return front ==null && rear ==null;

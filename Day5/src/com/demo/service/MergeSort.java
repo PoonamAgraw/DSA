@@ -29,7 +29,7 @@ public class MergeSort {
 				k++;
 			}
 		}
-		//copy remaining part of leftarray into arr
+
 		while(i<n1) {
 			arr[k]=leftarray[i];
 			i++;

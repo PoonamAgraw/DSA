@@ -1,8 +1,10 @@
 package com.demo.test;
+
 import com.demo.service.*;
-public class TestStackLinkedList {
+
+public class TestMyStackListGeneric {
 	public static void main(String[] args) {
-		StackLinkesdList sa = new StackLinkesdList();
+		MyStackListGeneric sa = new MyStackListGeneric();
 		sa.push(45);
 		sa.push(63);
 		sa.push(5);
@@ -11,5 +13,4 @@ public class TestStackLinkedList {
 		System.out.println(sa.pop());
 		sa.displayData();
 	}
-
 }

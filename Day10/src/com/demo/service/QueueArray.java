@@ -62,6 +62,20 @@ public class QueueArray {
 		return -1;
 	}
 	
+	public void displayData() {
+		if (isEmpty()) {
+            System.out.println("Queue is empty");
+            return;
+        }
+        System.out.print("Queue elements (front → rear): ");
+        int i = front;
+        while (true) {
+            System.out.print(arr[i] + " ");
+            if (i == rear) break;
+            i = (i + 1) % arr.length;
+        }
+        System.out.println();
+	}
 	
 	
 

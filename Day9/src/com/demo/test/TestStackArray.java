@@ -5,8 +5,11 @@ public class TestStackArray {
 		StackArray sa = new StackArray();
 		sa.push(45);
 		sa.push(63);
+		sa.push(12);
+		sa.push(52);
 		System.out.println(sa.pop());
 		System.out.println(sa.pop());
+		sa.displayData();
 		
 	}
 

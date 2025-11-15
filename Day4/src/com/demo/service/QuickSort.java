@@ -27,9 +27,9 @@ public class QuickSort {
 			arr[j]=temp;
 		}
 		System.out.println(Arrays.toString(arr));
-		System.out.println("pivot position : "+j+" Pivot number : "+arr[j]);
-		System.out.println(arr[j] + "  Swapped with "+arr[pivot]);
-		
+//		System.out.println("pivot position : "+j+" Pivot number : "+arr[j]);
+//		System.out.println(arr[j] + "  Swapped with "+arr[pivot]);
+//		
 		return j;
 	}
 	

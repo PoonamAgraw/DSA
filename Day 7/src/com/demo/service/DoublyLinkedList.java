@@ -65,7 +65,25 @@ public class DoublyLinkedList {
 			}
 		}
 	}
+	public void addByValue(int val, int num) {
+		Node temp = head;
+		Node newNode = new Node(num);
+		while (temp != null && temp.data != val) {
+			temp = temp.next;
+		}
 
+		if (temp == null) {
+			System.out.println("Value " + val + " not found in the list");
+			return;
+		}
+		newNode.next = temp.next;
+		newNode.prev = temp;
+		temp.next = newNode;
+
+		if (newNode.next != null) {
+			newNode.next.prev = newNode;
+		}
+	}
 	public void deleteByVal(int val) {
 		Node temp = head;
 		if (head.data == val) {
@@ -90,25 +108,7 @@ public class DoublyLinkedList {
 
 	}
 
-	public void addByValue(int val, int num) {
-		Node temp = head;
-		Node newNode = new Node(num);
-		while (temp != null && temp.data != val) {
-			temp = temp.next;
-		}
-
-		if (temp == null) {
-			System.out.println("Value " + val + " not found in the list");
-			return;
-		}
-		newNode.next = temp.next;
-		newNode.prev = temp;
-		temp.next = newNode;
-
-		if (newNode.next != null) {
-			newNode.next.prev = newNode;
-		}
-	}
+	
 
 	public void deleteByPosition(int pos) {
 		if (head == null) {
